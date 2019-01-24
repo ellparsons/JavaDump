@@ -1,0 +1,50 @@
+package PHPTravels.PHPTravels;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class PHPBooking {
+
+	@FindBy(xpath = "//*[@id=\"guestform\"]/div[1]/div[2]/input")
+	private WebElement  firstNameText;
+	
+	@FindBy(xpath = "//*[@id=\"guestform\"]/div[1]/div[3]/input")
+	private WebElement lastNameText ;
+	
+	@FindBy(xpath = "//*[@id=\"guestform\"]/div[2]/div[2]/input")
+	private WebElement  emailText;
+	
+	@FindBy(xpath = "//*[@id=\"guestform\"]/div[2]/div[3]/input")
+	private WebElement emailConfirmationText;
+	
+	@FindBy(xpath = "//*[@id=\"body-section\"]/div/div/div[1]/div/div[1]/div[2]/div[4]/button")
+	private WebElement confirmBookingButton;
+	
+	public void enterForename(String text) {
+	firstNameText.sendKeys(text);
+	}
+	
+	public void enterSurname(String text) { 
+	lastNameText.sendKeys(text);	
+	} 
+
+	public void enterEmail(String text) {
+	emailText.sendKeys(text);
+	}
+	
+	public void confirmEmail(String text) throws InterruptedException {
+	emailConfirmationText.sendKeys(text);
+	}
+	  
+	public void confirmBooking(Actions action, WebDriver driver) throws InterruptedException {
+	action.moveToElement(confirmBookingButton);
+	WebElement confirmBookingButtonClick = (new WebDriverWait(driver,10))
+			.until(ExpectedConditions.elementToBeClickable(confirmBookingButton));
+	confirmBookingButtonClick.click();  
+	}  
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;PHPTravels.PHPTravels.App.java&apos; to &apos;PHPTravelsHome.java&apos;&#x0D;&#x0A;- Original project: &apos;PHPTravels&apos;&#x0D;&#x0A;- Original element: &apos;PHPTravels.PHPTravels.App.java&apos;&#x0D;&#x0A;- Renamed element: &apos;PHPTravels.PHPTravels.PHPTravelsHome.java&apos;" description="Rename compilation unit &apos;App.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;PHPTravels.PHPTravels{App.java" name="PHPTravelsHome.java" references="false" stamp="1548155898333" version="1.0"/>
+</session>

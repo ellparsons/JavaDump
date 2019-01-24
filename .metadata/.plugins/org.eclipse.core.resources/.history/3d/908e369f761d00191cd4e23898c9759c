@@ -1,0 +1,41 @@
+package com.parsons.elliott.tooHot.tooHot;
+
+public class tooHot {
+	
+
+	public static void main(String[]args)
+	{
+		Boolean isSummer=true;
+		int temperature=40;
+		isItTooHot(isSummer, temperature);
+	}
+
+	public static String isItTooHot(Boolean isSummer, int temperature) {
+			
+		if (isSummer==true && temperature < 10)
+		{
+			return ("Too cold");
+		}
+		else if (isSummer==true && temperature > 30)
+		{
+			return("Too hot");
+		}
+		else if (isSummer==true && temperature > 10 && temperature < 30)
+		{
+			return ("Good temperature");
+		}
+		else if(isSummer==false && temperature < 10)
+		{
+			return ("Too cold");
+		}
+		else if (isSummer==false && temperature > 30)
+		{
+			return("Too hot");
+		}
+		else if (isSummer==false && temperature > 10 && temperature < 30)
+		{
+			return ("Good temperature");
+		}
+		return null;
+	}
+}

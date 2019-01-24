@@ -1,0 +1,14 @@
+
+squid:S1192*"VDefine a constant instead of duplicating this literal "MySpringBootDataModel" 7 times.(ÅË¥8˜Ğõ¶ú,HÇRCRITICALZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸™ƒHÉRMINORZ
+CODE_SMELL
+˜squid:UselessImportCheck
+"RRemove this unused import 'org.springframework.web.bind.annotation.DeleteMapping'.(­ìÎªşÿÿÿÿ8Ö‘Ğà…-HÊRMINORZ
+CODE_SMELL
+ˆsquid:S1192C"LDefine a constant instead of duplicating this literal "description" 3 times.(•›×Ñşÿÿÿÿ8Ö‘Ğà…-HÍRCRITICALZ
+CODE_SMELL
+Šsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Ö‘Ğà…-HÈRMINORZ
+CODE_SMELL
+•squid:UselessImportCheck"ORemove this unused import 'org.springframework.web.bind.annotation.PutMapping'.(›¥÷ˆûÿÿÿÿ8Ö‘Ğà…-HÌRMINORZ
+CODE_SMELL

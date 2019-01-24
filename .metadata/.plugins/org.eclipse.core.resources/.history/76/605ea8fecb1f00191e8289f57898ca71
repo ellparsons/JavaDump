@@ -1,0 +1,45 @@
+package com.parsons.elliott.teaTesting.TeaTesting;
+
+import static org.junit.Assert.assertEquals;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TeaTestingSteps {
+ 
+	@Given("^the correct web address$") 
+	public void the_correct_web_address(WebDriver driver) {
+		TeaTestingHomepage homepage = PageFactory.initElements(driver, TeaTestingHomepage.class);
+		driver.get(Constants.URL);
+	}
+ 
+	@When("^I navigate to the 'Menu' page$")
+	public void i_navigate_to_the_Menu_page(WebDriver driver) {
+		
+		homepage.navigateToMenu();
+	}
+
+	@Then("^I can browse a list of the available products\\.$")
+	public void i_can_browse_a_list_of_the_available_products(WebDriver driver) {
+		TeaTestingMenu menu = PageFactory.initElements(driver, TeaTestingMenu.class);
+		assertEquals("Green Tea",(menu.checkGreenTea()));
+		assertEquals("Red Tea",(menu.checkRedTea()));
+		assertEquals("Oolong Tea",(menu.checkOolongTea()));
+	}
+
+	@When("^I click the checkout button$")
+	public void i_click_the_checkout_button() {
+		
+	}
+
+	@Then("^I am taken to the checkout page$")
+	public void i_am_taken_to_the_checkout_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+}

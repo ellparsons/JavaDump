@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Blockbuster</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+  </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="text.html">Movies</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div align="center">
+      <input id="textInput" type="text" placeholder="Search...">
+      <input id="searchButton" type="button" value="Search" onClick="searchTitles()">
+    <div align="center"> 
+       <input id="All" type="button" value="All Movies" onClick="returnAll()">
+       <input id="Documentary" type="button" value="Documentary" onClick="returnMovie(this.id)">
+       <input id="Horror" type="button" value="Horror" onClick="returnMovie(this.id)">
+       <input id="Family" type="button" value="Family" onClick="returnMovie(this.id)">
+       <input id="Foreign" type="button" value="Foreign" onClick="returnMovie(this.id)">
+       <input id="Comedy" type="button" value="Comedy" onClick="returnMovie(this.id)">
+       <input id="Music" type="button" value="Music" onClick="returnMovie(this.id)">
+       <input id="Classics" type="button" value="Classics" onClick="returnMovie(this.id)">
+       <input id="Animation" type="button" value="Animation" onClick="returnMovie(this.id)">
+       <input id="Action" type="button" value="Action" onClick="returnMovie(this.id)">
+       <input id="Sci-Fi" type="button" value="Sci-Fi" onClick="returnMovie(this.id)">
+       <input id="Drama" type="button" value="Drama" onClick="returnMovie(this.id)">
+       <input id="Travel" type="button" value="Travel" onClick="returnMovie(this.id)">
+       <input id="Games" type="button" value="Games" onClick="returnMovie(this.id)">
+       <input id="Children" type="button" value="Children" onClick="returnMovie(this.id)">
+       <input id="New" type="button" value="New" onClick="returnMovie(this.id)">
+    </div>
+    <p id="Content"></p>
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Blockbuster LLC</p>
+      </div>
+    </footer>
+    <script src="js/blockbuster.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

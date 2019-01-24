@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="stackTest" project="Stack Cucumber Example" tests="15" started="15" failures="0" errors="0" ignored="4">
+  <testsuite name="com.qa.test.Guru99Test.stackTest" time="0.042">
+    <testsuite name="Feature: Working with a Stack" time="0.042">
+      <testsuite name="Scenario: Push an item into a stack" time="0.003">
+        <testcase name="Given an empty stack" classname="Scenario: Push an item into a stack" time="0.001"/>
+        <testcase name="When I push an item into the stack" classname="Scenario: Push an item into a stack" time="0.002"/>
+        <testcase name="Then the stack contains one item" classname="Scenario: Push an item into a stack" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Push two items into a stack" time="0.0">
+        <testcase name="Given an empty stack" classname="Scenario: Push two items into a stack" time="0.0"/>
+        <testcase name="When I push an item into the stack" classname="Scenario: Push two items into a stack" time="0.0"/>
+        <testcase name="And I push another item into the stack" classname="Scenario: Push two items into a stack" time="0.0"/>
+        <testcase name="Then the stack contains two items" classname="Scenario: Push two items into a stack" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Pop a given item from the stack" time="0.0">
+        <testcase name="Given an empty stack" classname="Scenario: Pop a given item from the stack" time="0.0"/>
+        <testcase name="When I push an item into the stack" classname="Scenario: Pop a given item from the stack" time="0.0"/>
+        <testcase name="And I pop from the stack" classname="Scenario: Pop a given item from the stack" time="0.0"/>
+        <testcase name="Then I get the same item back" classname="Scenario: Pop a given item from the stack" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Pop a given item from the stack" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given a three item stack" classname="Scenario: Pop a given item from the stack" time="0.0" ignored="true"/>
+        <testcase name="When I push an item into the stack" classname="Scenario: Pop a given item from the stack" time="0.0" ignored="true"/>
+        <testcase name="And I pop from the stack" classname="Scenario: Pop a given item from the stack" time="0.0" ignored="true"/>
+        <testcase name="Then I get the same item back" classname="Scenario: Pop a given item from the stack" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

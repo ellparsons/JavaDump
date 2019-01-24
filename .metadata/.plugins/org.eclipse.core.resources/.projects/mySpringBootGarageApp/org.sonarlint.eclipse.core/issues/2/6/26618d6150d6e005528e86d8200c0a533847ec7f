@@ -1,0 +1,12 @@
+
+Wsquid:S1165"#Make this "fieldValue" field final.(δ›¨Γ8ήνω,HΑRMINORZ
+CODE_SMELL
+Ysquid:S1165	"%Make this "resourceName" field final.(Δ¶ξΏ8ήνω,HΒRMINORZ
+CODE_SMELL
+csquid:S1948",Make "fieldValue" transient or serializable.(δ›¨Γ8ήνω,HΓRCRITICALZ
+CODE_SMELL
+Usquid:S1165
+""Make this "fieldName" field final.(–©ΩK8ήνω,HΔRMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ά‘»ΖHΕRMINORZ
+CODE_SMELL

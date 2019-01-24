@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TeaTestingRunner" project="TeaTesting" tests="6" started="6" failures="0" errors="4" ignored="4">
+  <testsuite name="com.parsons.elliott.teaTesting.TeaTesting.TeaTestingRunner" time="4.883">
+    <testsuite name="Feature: Shopping on a website" time="4.883">
+      <testsuite name="Scenario: Browse the items available on the website" time="0.0" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	The local variable i may not have been initialized
+&#13;
+	at com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(TeaTestingSteps.java:40)&#13;
+	at ✽.Given the correct web address(com/parsons/elliott/teaTesting/TeaTesting/TeaTesting.feature:7)&#13;
+&#13;
+</error>
+        <testcase name="Given the correct web address" classname="Scenario: Browse the items available on the website" time="0.0">
+          <error>java.lang.Error: Unresolved compilation problem: 
+	The local variable i may not have been initialized
+&#13;
+	at com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(TeaTestingSteps.java:40)&#13;
+	at ✽.Given the correct web address(com/parsons/elliott/teaTesting/TeaTesting/TeaTesting.feature:7)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When I navigate to the 'Menu' page" classname="Scenario: Browse the items available on the website" time="0.0" ignored="true"/>
+        <testcase name="Then I can browse a list of the available products." classname="Scenario: Browse the items available on the website" time="1.332" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add an item to the checkout" time="0.0" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	The local variable i may not have been initialized
+&#13;
+	at com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(TeaTestingSteps.java:40)&#13;
+	at ✽.Given the correct web address(com/parsons/elliott/teaTesting/TeaTesting/TeaTesting.feature:12)&#13;
+&#13;
+</error>
+        <testcase name="Given the correct web address" classname="Scenario: Add an item to the checkout" time="0.0">
+          <error>java.lang.Error: Unresolved compilation problem: 
+	The local variable i may not have been initialized
+&#13;
+	at com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(TeaTestingSteps.java:40)&#13;
+	at ✽.Given the correct web address(com/parsons/elliott/teaTesting/TeaTesting/TeaTesting.feature:12)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When I click the checkout button" classname="Scenario: Add an item to the checkout" time="0.0" ignored="true"/>
+        <testcase name="Then I am taken to the checkout page" classname="Scenario: Add an item to the checkout" time="1.06" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

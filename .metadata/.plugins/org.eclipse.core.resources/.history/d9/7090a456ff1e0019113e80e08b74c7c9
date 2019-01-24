@@ -1,0 +1,14 @@
+package PHPTravels.PHPTravels;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class PHPInvoice {
+
+	@FindBy(xpath = "//*[@id=\"16\"]")
+	WebElement payOnArrival;
+	
+	public void PayOnArrival() {
+		payOnArrival.click();
+	}
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TeaTestingRunner" project="TeaTesting" tests="6" started="6" failures="0" errors="4" ignored="4">
+  <testsuite name="com.parsons.elliott.teaTesting.TeaTesting.TeaTestingRunner" time="4.614">
+    <testsuite name="Feature: Shopping on a website" time="4.614">
+      <testsuite name="Scenario: Browse the items available on the website" time="0.0" incomplete="true">
+        <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(WebDriver) in file:/C:/Users/Admin/eclipse-workspace/TeaTesting/target/test-classes/' with pattern [^the correct web address$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given the correct web address&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+        <testcase name="Given the correct web address" classname="Scenario: Browse the items available on the website" time="0.0">
+          <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(WebDriver) in file:/C:/Users/Admin/eclipse-workspace/TeaTesting/target/test-classes/' with pattern [^the correct web address$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given the correct web address&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When I navigate to the 'Menu' page" classname="Scenario: Browse the items available on the website" time="0.0" ignored="true"/>
+        <testcase name="Then I can browse a list of the available products." classname="Scenario: Browse the items available on the website" time="1.067" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Add an item to the checkout" time="0.001" incomplete="true">
+        <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(WebDriver) in file:/C:/Users/Admin/eclipse-workspace/TeaTesting/target/test-classes/' with pattern [^the correct web address$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given the correct web address&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+        <testcase name="Given the correct web address" classname="Scenario: Add an item to the checkout" time="0.0">
+          <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.parsons.elliott.teaTesting.TeaTesting.TeaTestingSteps.the_correct_web_address(WebDriver) in file:/C:/Users/Admin/eclipse-workspace/TeaTesting/target/test-classes/' with pattern [^the correct web address$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given the correct web address&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When I click the checkout button" classname="Scenario: Add an item to the checkout" time="0.0" ignored="true"/>
+        <testcase name="Then I am taken to the checkout page" classname="Scenario: Add an item to the checkout" time="1.023" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

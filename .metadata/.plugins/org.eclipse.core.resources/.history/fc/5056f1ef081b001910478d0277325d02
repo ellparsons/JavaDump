@@ -1,0 +1,99 @@
+package com.parsons.elliott.springboot.garage.mySpringBootGarageApp.controller;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.parsons.elliott.springboot.garage.mySpringBootGarageApp.exception.ResourceNotFoundException;
+import com.parsons.elliott.springboot.garage.mySpringBootGarageApp.model.MySpringBootDataModel;
+import com.parsons.elliott.springboot.garage.mySpringBootGarageApp.repository.MySpringBootRepository;
+
+@CrossOrigin
+@RestController
+@RequestMapping("/api")
+public class MySpringBootDataAppController {
+	
+	@Autowired
+	MySpringBootRepository myRepository;
+	
+	//Method to create a vehicle//
+		@PostMapping("/create/film")
+		public MySpringBootDataModel createFilm(@Valid @RequestBody MySpringBootDataModel mSDM) 
+		{
+			return myRepository.save(mSDM); 
+		}  
+		  
+		//Method to get a vehicle by Id//
+		@GetMapping("/film/id/{id}")
+		public MySpringBootDataModel getFilmById(@PathVariable("id")Long id) 
+		{
+			return myRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("MySpringBootDataModel","id",id));
+		} 
+		
+		//Method to get all films//
+		@GetMapping("/film")
+		public List<MySpringBootDataModel> getAllFilms(){
+			return myRepository.findAll();
+		}
+		
+		//Method to get all by vehicle description// 
+		@GetMapping("/film/description/{description}")
+	 
+		public List<MySpringBootDataModel> getVehicleByType(@PathVariable(value = "description")String description)
+		{
+			if (myRepository.findByDescription(description)== null) {
+				throw new ResourceNotFoundException("MySpringBootDataModel","description",description);
+			}
+			return myRepository.findByDescription(description);  
+		} 
+		//Method to get all by vehicle category// 
+		@GetMapping("/film/category/{category}")
+		 
+		public List<MySpringBootDataModel> getFilmByCategory(@PathVariable(value = "category")String category)
+		{
+			if (myRepository.findByDescription(category)== null) {
+				throw new ResourceNotFoundException("MySpringBootDataModel","description",category);
+			}
+			return myRepository.findByDescription(category);  
+		} 
+		
+		@GetMapping("/film/price/{price}")
+		 
+		public List<MySpringBootDataModel> getFilmByPrice(@PathVariable(value = "price")int price)
+		{
+			if (myRepository.findByPrice(price)== null) {
+				throw new ResourceNotFoundException("MySpringBootDataModel","description",price);
+			}
+			return myRepository.findByPrice(price);  
+		} 
+		@GetMapping("/film/length/{length}")
+		 
+		public List<MySpringBootDataModel> getFilmByLength(@PathVariable(value = "length")int length)
+		{
+			if (myRepository.findByLength(length)== null) {
+				throw new ResourceNotFoundException("MySpringBootDataModel","description",length);
+			}
+			return myRepository.findByLength(length);  
+		} 
+		
+		public List<MySpringBootDataModel> getFilmByRating(@PathVariable(value = "rating")String rating)
+		{
+			if (myRepository.findByRating(rating)== null) {
+				throw new ResourceNotFoundException("MySpringBootDataModel","rating",rating);
+			}
+			return myRepository.findByRating(rating); 
+		}
+}
+   

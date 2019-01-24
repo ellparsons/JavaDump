@@ -1,0 +1,14 @@
+package com.parsons.elliott.chromeDriver.ChromeDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	String capCase = ("hello my name is elliott");
+	
+    public static String capCase( String input )
+    {
+    }
+}

@@ -1,0 +1,7 @@
+
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë¨ş°úÿÿÿÿHîRMINORZ
+CODE_SMELL
+—squid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8†ÂÉİ…-HñRMINORZ
+CODE_SMELL
+Åsquid:UselessImportCheck"Remove this unused import 'com.parsons.elliott.springboot.sakila.mySpringBootSakilaController.MySpringBootSakilaAppController'.(ğåÜ×ùÿÿÿÿ8†ÂÉİ…-HòRMINORZ
+CODE_SMELL

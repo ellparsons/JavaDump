@@ -1,0 +1,28 @@
+
+|squid:S00100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àî®€HŞRMINORZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘×©HİRMINORZ
+CODE_SMELL
+squid:S1192"^Define a constant instead of duplicating this literal "Expected outcome is incorrect" 9 times.(Äº¶šHÖRCRITICALZ
+CODE_SMELL
+{squid:S1192"FDefine a constant instead of duplicating this literal "Paper" 6 times.(ÜÈ ÊıÿÿÿÿHØRCRITICALZ
+CODE_SMELL
+|squid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÉÛªHàRMINORZ
+CODE_SMELL
+ysquid:S1192"IDefine a constant instead of duplicating this literal "Scissors" 6 times.(Äº¶šH×RCRITICALZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿ÖHÜRMINORZ
+CODE_SMELL
+squid:S00100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ğöİşÿÿÿÿHÙRMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îó°”üÿÿÿÿHâRMINORZ
+CODE_SMELL
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‹ÿÿÿÿÿHÚRMINORZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëˆ“çHÛRMINORZ
+CODE_SMELL
+squid:S00100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙºĞªøÿÿÿÿHßRMINORZ
+CODE_SMELL
+squid:S001002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×÷·şÿÿÿÿHáRMINORZ
+CODE_SMELL

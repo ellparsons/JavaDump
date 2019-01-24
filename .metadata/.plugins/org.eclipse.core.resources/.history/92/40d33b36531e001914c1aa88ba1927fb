@@ -1,0 +1,53 @@
+package PHPTravels.PHPTravels;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class PHPTravelsHome {
+	@FindBy(xpath = "//*[@id=\"s2id_autogen8\"]/a/span[1]")
+	private WebElement searchBoxClick;
+	
+	@FindBy(xpath = "//*[@id=\"select2-drop\"]/div/input")
+	private WebElement searchBox;
+	
+	@FindBy(xpath="//*[@id=\"dpd1\"]/div/input")
+	private WebElement checkInDate;
+	
+	@FindBy(xpath="//*[@id=\"dpd2\"]/div/input")
+	private WebElement checkOutDate;
+	
+	@FindBy(xpath="//*[@id=\"travellersInput\"]")
+	private WebElement openAttendees;
+	
+	@FindBy(xpath="//*[@id=\"adultPlusBtn\"]")
+	private WebElement increaseAdults;
+	
+	@FindBy(xpath="//*[@id=\"hotels\"]/form/div[5]/button")
+	private WebElement searchForListings;
+	 
+	public void searchFor(String text) throws InterruptedException { 
+		searchBoxClick.click();
+		searchBox.sendKeys(text); 
+		searchBox.sendKeys(Keys.ENTER); 
+	}  
+	public void checkInDate(String text) { 
+		checkInDate.click();
+		checkInDate.sendKeys(text);  
+	}
+	public void checkOutDate(String text) {
+		checkInDate.click();
+		checkOutDate.sendKeys(text);
+	}
+	public void openAttendees() {
+		openAttendees.click();
+	}
+	public void increaseAdults() {
+		increaseAdults.click();
+	} 
+	public void searchForListings() { 
+		searchForListings.click();
+	} 
+} 
+  
+  

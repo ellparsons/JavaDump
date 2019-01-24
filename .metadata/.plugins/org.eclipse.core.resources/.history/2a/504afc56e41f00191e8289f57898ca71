@@ -1,0 +1,7 @@
+package com.parsons.elliott.searchResults.searchResults;
+
+public class SearchResult {
+
+	@FindBy(xpath = "//*[@id=\"b_results\"]/li[1]/h2/a")
+	WebElement seachResultCheck;
+}

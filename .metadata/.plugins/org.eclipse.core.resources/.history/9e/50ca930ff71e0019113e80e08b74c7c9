@@ -1,0 +1,48 @@
+package PHPTravels.PHPTravels;
+
+import org.openqa.selenium.Keys;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+
+public class PHPTravelsLondonDetails {
+
+	@FindBy(xpath = "//*[@id=\"adults\"]")
+	private WebElement adultList;
+	
+	@FindBy(xpath = "//*[@id=\"adults\"]/option[3]")
+	private WebElement adultQuantitySelection;
+	
+	@FindBy(xpath = "//*[@id=\"body-section\"]/div[4]/div[2]/div/div[2]/form/div[1]/div/input")
+	private WebElement checkInDate;
+	
+	@FindBy(xpath = "//*[@id=\"body-section\"]/div[4]/div[2]/div/div[2]/form/div[2]/div/input")
+	private WebElement checkOutDate;
+	
+	@FindBy(xpath = "//*[@id=\"roomsCheckbox\"]")
+	private WebElement oneBedroomApartment;
+	
+	public void checkInDate(String text) {
+		checkInDate.click();
+		checkInDate.sendKeys(Keys.chord(Keys.CONTROL,"a"));
+		checkInDate.sendKeys(Keys.BACK_SPACE);
+		checkInDate.sendKeys(text);  
+	}
+
+	public void checkOutDate(String text) {
+		checkOutDate.click(); 
+		checkOutDate.sendKeys(Keys.chord(Keys.CONTROL,"a"));
+		checkOutDate.sendKeys(Keys.BACK_SPACE);
+		checkOutDate.sendKeys(text);    
+	} 
+	public void selectAdults(Actions action) {  
+		checkOutDate.click(); 
+		action.sendKeys(Keys.TAB);
+		action.sendKeys("3").perform();   
+	} 
+	public void selectRoom() throws InterruptedException { 
+		oneBedroomApartment.click();
+		Thread.sleep(2000);   
+	}
+} 

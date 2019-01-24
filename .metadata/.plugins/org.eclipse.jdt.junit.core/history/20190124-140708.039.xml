@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="searchResults" tests="12" started="12" failures="0" errors="0" ignored="12">
+  <testsuite name="com.parsons.elliott.searchResults.searchResults.Runner" time="0.048">
+    <testsuite name="Feature: Searching for terms" time="0.048">
+      <testsuite name="Scenario Outline: Search bing for google" time="0.048">
+        <testsuite name="Examples:" time="0.048">
+          <testsuite name="| https://www.bing.com | QAConsulting |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | QAConsulting |" time="0.0" ignored="true"/>
+            <testcase name="When I search for &quot;QAConsulting&quot;" classname="| https://www.bing.com | QAConsulting |" time="0.0" ignored="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | QAConsulting |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Guru99 |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Guru99 |" time="0.0" ignored="true"/>
+            <testcase name="When I search for &quot;Guru99&quot;" classname="| https://www.bing.com | Guru99 |" time="0.0" ignored="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Guru99 |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | BlazeDemo |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | BlazeDemo |" time="0.0" ignored="true"/>
+            <testcase name="When I search for &quot;BlazeDemo&quot;" classname="| https://www.bing.com | BlazeDemo |" time="0.0" ignored="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | BlazeDemo |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Automated Testing |" time="0.001" incomplete="true">
+            <skipped/>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Automated Testing |" time="0.001" ignored="true"/>
+            <testcase name="When I search for &quot;Automated Testing&quot;" classname="| https://www.bing.com | Automated Testing |" time="0.0" ignored="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Automated Testing |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

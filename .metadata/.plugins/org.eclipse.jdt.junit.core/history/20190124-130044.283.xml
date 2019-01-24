@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TeaTestingRunner" project="TeaTesting" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.parsons.elliott.teaTesting.TeaTesting.TeaTestingRunner" time="19.074">
+    <testsuite name="Feature: Shopping on a website" time="19.074">
+      <testsuite name="Scenario: Browse the items available on the website" time="1.251">
+        <testcase name="Given the correct web address" classname="Scenario: Browse the items available on the website" time="0.322"/>
+        <testcase name="When I navigate to the 'Menu' page" classname="Scenario: Browse the items available on the website" time="0.086"/>
+        <testcase name="Then I can browse a list of the available products." classname="Scenario: Browse the items available on the website" time="0.843"/>
+      </testsuite>
+      <testsuite name="Scenario: Add an item to the checkout" time="1.032">
+        <testcase name="Given the correct web address" classname="Scenario: Add an item to the checkout" time="0.287"/>
+        <testcase name="When I click the checkout button" classname="Scenario: Add an item to the checkout" time="0.013"/>
+        <testcase name="Then I am taken to the checkout page" classname="Scenario: Add an item to the checkout" time="0.732"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,16 @@
+package com.parsons.elliott.chromeDriver.ChromeDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	String capCase = ("hello my name is elliott");
+	
+    public static String capCase( String input )
+    {
+    	String output = input.substring(0, 1).toUpperCase() + input.substring(1);
+    	return output;
+    }
+}

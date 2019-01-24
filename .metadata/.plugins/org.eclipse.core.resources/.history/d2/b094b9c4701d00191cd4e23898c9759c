@@ -1,0 +1,29 @@
+package com.parsons.elliott.automatedTesting.automatedTesting;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class AppTest {
+		@Test
+		public void TestLesserGreaterWin() {
+			assertEquals("Expected outcome is incorrect","You win!",App.calculation(11, 24));
+		}
+		@Test
+		public void TestGreaterLessLose() {
+			assertEquals("Expected outcome is incorrect","Bust!",App.calculation(24, 18));
+		}
+		@Test
+		public void TestLessGreaterOutcome() {
+			assertEquals("Expected outcome is incorrect","You win!",App.calculation(11, 24));
+		}
+		@Test
+		public void TestLessGreaterOutcome() {
+			assertEquals("Expected outcome is incorrect","You win!",App.calculation(11, 24));
+		}
+		@Test
+		public void TestLessGreaterOutcome() {
+			assertEquals("Expected outcome is incorrect","You win!",App.calculation(11, 24));
+		}
+		
+		
+} 

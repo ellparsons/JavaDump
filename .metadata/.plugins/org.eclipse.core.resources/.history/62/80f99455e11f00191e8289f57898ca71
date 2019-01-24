@@ -1,0 +1,15 @@
+package com.parsons.elliott.searchResults.searchResults;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+public class Runner {
+	
+	@RunWith(Cucumber.class)
+	@CucumberOptions(features = "classpath:")
+	public class Runner {
+		
+	}
+}

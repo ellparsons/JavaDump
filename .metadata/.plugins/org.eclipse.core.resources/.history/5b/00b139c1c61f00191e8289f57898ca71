@@ -1,0 +1,13 @@
+package com.parsons.elliott.teaTesting.TeaTesting;
+
+
+public class TeaTesting 
+{
+	@FindBy(xpath = "")
+	WebElement  ;
+	
+	@FIndBy(xpath = "")
+	
+	WebElement  ;
+	
+}

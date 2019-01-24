@@ -1,0 +1,37 @@
+
+‰squid:S3008"VRename this field "ExcelWSheet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§½æ=8õÖÔÜ‡-HÖ%RMINORZ
+CODE_SMELL
+‹squid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ÿ…ºÿÿÿÿÿ8õÖÔÜ‡-Hà%RMINORZ
+CODE_SMELL
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“’Ž¬øÿÿÿÿ8õÖÔÜ‡-HÞ%RMINORZ
+CODE_SMELL
+ˆsquid:S3008"ORename this field "Cell" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø Ž’þÿÿÿÿ8õÖÔÜ‡-HØ%RMINORZ
+CODE_SMELL
+†squid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‘æî8õÖÔÜ‡-Hå%RMINORZ
+CODE_SMELL
+_squid:S1148l"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õÖÔÜ‡-Hè%RMINORZVULNERABILITY
+‹squid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ÿ…ºÿÿÿÿÿ8õÖÔÜ‡-Há%RMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ððö»úÿÿÿÿHÒ%RMINORZ
+CODE_SMELL
+_squid:S1148B"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õÖÔÜ‡-Hç%RMINORZVULNERABILITY
+‹squid:S1450"RRemove the "Row" field and declare it as a local variable in the relevant methods.(†„‰ƒúÿÿÿÿ8õÖÔÜ‡-HÚ%RMINORZ
+CODE_SMELL
+™squid:S1488<"`Immediately return this expression instead of assigning it to the temporary variable "CellData".(àÝ»Ÿýÿÿÿÿ8õÖÔÜ‡-HÜ%RMINORZ
+CODE_SMELL
+‡squid:S3008"NRename this field "Row" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†„‰ƒúÿÿÿÿ8õÖÔÜ‡-HÙ%RMINORZ
+CODE_SMELL
+…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜²*8õÖÔÜ‡-Hß%RMINORZ
+CODE_SMELL
+{squid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(˜²*8õÖÔÜ‡-HÛ%RBLOCKERZBUG
+†squid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‘æî8õÖÔÜ‡-Hä%RMINORZ
+CODE_SMELL
+Žsquid:S3008"URename this field "ExcelWBook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©‰¬Úøÿÿÿÿ8õÖÔÜ‡-H×%RMINORZ
+CODE_SMELL
+‹squid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÝ»Ÿýÿÿÿÿ8õÖÔÜ‡-Hâ%RMINORZ
+CODE_SMELL
+nsquid:S1118":Add a private constructor to hide the implicit public one.(µŠÂÜ8õÖÔÜ‡-HÝ%RMAJORZ
+CODE_SMELL
+†squid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‘æî8õÖÔÜ‡-Hã%RMINORZ
+CODE_SMELL
+_squid:S1148)"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õÖÔÜ‡-Hæ%RMINORZVULNERABILITY

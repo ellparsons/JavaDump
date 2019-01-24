@@ -1,0 +1,9 @@
+
+pjavascript:UnusedVariable"5Remove the declaration of the unused 'myH1' variable.(‰ª·HñRMINORZ
+CODE_SMELL
+ijavascript:S1854"7Remove this useless assignment to local variable "myH1"(‰ª·HòRMAJORZ
+CODE_SMELL
+javascript:S2703"[Add the "let", "const" or "var" keyword to this declaration of "input" to make it explicit.(çºï HóRBLOCKERZ
+CODE_SMELL
+javascript:S2703"WAdd the "let", "const" or "var" keyword to this declaration of "x" to make it explicit.(†âÖ¢ıÿÿÿÿHôRBLOCKERZ
+CODE_SMELL

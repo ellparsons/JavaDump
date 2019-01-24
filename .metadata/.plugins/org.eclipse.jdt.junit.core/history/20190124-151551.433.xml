@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="searchResults" tests="12" started="12" failures="0" errors="4" ignored="0">
+  <testsuite name="com.parsons.elliott.searchResults.searchResults.Runner" time="17.699">
+    <testsuite name="Feature: Searching for terms" time="17.699">
+      <testsuite name="Scenario Outline: Search bing for google" time="17.699">
+        <testsuite name="Examples:" time="17.699">
+          <testsuite name="| https://www.bing.com | QAConsulting |" time="0.907" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.teardown(AppTest.java:34)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | QAConsulting |" time="0.894"/>
+            <testcase name="When I search for &quot;QAConsulting&quot;" classname="| https://www.bing.com | QAConsulting |" time="0.008"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | QAConsulting |" time="0.004"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Guru99 |" time="0.596" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.teardown(AppTest.java:34)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Guru99 |" time="0.589"/>
+            <testcase name="When I search for &quot;Guru99&quot;" classname="| https://www.bing.com | Guru99 |" time="0.006"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Guru99 |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | BlazeDemo |" time="0.537" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.teardown(AppTest.java:34)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | BlazeDemo |" time="0.526"/>
+            <testcase name="When I search for &quot;BlazeDemo&quot;" classname="| https://www.bing.com | BlazeDemo |" time="0.011"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | BlazeDemo |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Automated Testing |" time="0.749" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.teardown(AppTest.java:34)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Automated Testing |" time="0.741"/>
+            <testcase name="When I search for &quot;Automated Testing&quot;" classname="| https://www.bing.com | Automated Testing |" time="0.007"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Automated Testing |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

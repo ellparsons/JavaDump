@@ -1,0 +1,43 @@
+
+osquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹HÃRBLOCKERZBUG
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(×‰ÛŞHÇRMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÉÜàıÿÿÿÿHÏRMINORZ
+CODE_SMELL
+psquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉHÅRBLOCKERZBUG
+d
+squid:S106 "9Replace this use of System.out or System.err by a logger.(€­¨4HÊRMAJORZ
+CODE_SMELL
+lsquid:S1118	":Add a private constructor to hide the implicit public one.(Šë úÿÿÿÿHÍRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ÈÜHÈRMAJORZ
+CODE_SMELL
+Wsquid:S00108=")Either remove or fill this block of code.(É®£HÎRMAJORZ
+CODE_SMELL
+squid:S1192"QUse already-defined constant 'JDBC_DRIVER' instead of duplicating its value here.(ğ¿ÉíHÂRCRITICALZ
+CODE_SMELL
+e
+squid:S106#"9Replace this use of System.out or System.err by a logger.(¯ÆÿâHËRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì©¼ÀûÿÿÿÿHÉRMAJORZ
+CODE_SMELL
+e
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Û¬·HÌRMAJORZ
+CODE_SMELL
+tsquid:S2095&"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ëÒ€æşÿÿÿÿHÆRBLOCKERZBUG
+osquid:S2095$"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹HÄRBLOCKERZBUG
+Rsquid:S2068" Remove this hard-coded password.(»¥ÏÉHÁRBLOCKERZVULNERABILITY
+Xsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHĞRMINORZVULNERABILITY
+squid:S1192#"VDefine a constant instead of duplicating this literal "Creating statement..." 3 times.(¯Æÿâ8ÑÁ”¿ù,HßRCRITICALZ
+CODE_SMELL
+vsquid:S20957"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ÑÁ”¿ù,HàRBLOCKERZBUG
+vsquid:S20951"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ÑÁ”¿ù,HáRBLOCKERZBUG
+l
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¯Æÿâ8ÑÁ”¿ù,HâRMAJORZ
+CODE_SMELL
+l
+squid:S1066"9Replace this use of System.out or System.err by a logger.(¯Æÿâ8ÑÁ”¿ù,HãRMAJORZ
+CODE_SMELL

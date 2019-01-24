@@ -1,0 +1,15 @@
+package com.parsons.elliott.searchResults.searchResults;
+
+import org.openqa.selenium.support.FindBy;
+
+public class BingHomePage 
+{
+	@FindBy(xpath = "")
+	WebElement  ;
+
+	public void searchBox() {
+	
+	}
+	
+	
+}

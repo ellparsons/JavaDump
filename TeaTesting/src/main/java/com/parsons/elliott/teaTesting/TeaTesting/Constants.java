@@ -1,0 +1,7 @@
+package com.parsons.elliott.teaTesting.TeaTesting;
+
+public class Constants {
+	 
+	public static final String URL = "http://www.practiceselenium.com/";
+
+}

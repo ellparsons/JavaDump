@@ -1,0 +1,15 @@
+
+asquid:S1125"(Remove the literal "true" boolean value.(ÌŸÜÀûÿÿÿÿ8…šÈ‚‡-H§RMINORZ
+CODE_SMELL
+]squid:S1125")Remove the literal "false" boolean value.(Ñ´û¥8…šÈ‚‡-HÀRMINORZ
+CODE_SMELL
+\squid:S1125"(Remove the literal "true" boolean value.(ÊÕ¼Ö8…šÈ‚‡-H¨RMINORZ
+CODE_SMELL
+]squid:S1125")Remove the literal "false" boolean value.(€†žú8…šÈ‚‡-HÁRMINORZ
+CODE_SMELL
+bsquid:S1125#")Remove the literal "false" boolean value.(‚·¢‚ùÿÿÿÿ8…šÈ‚‡-H¿RMINORZ
+CODE_SMELL
+asquid:S1125"(Remove the literal "true" boolean value.(ºí‰Ðþÿÿÿÿ8…šÈ‚‡-H¦RMINORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íœà‹H™RMINORZ
+CODE_SMELL

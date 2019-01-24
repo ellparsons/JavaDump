@@ -1,0 +1,12 @@
+
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù»ôøÿÿÿÿHÑRMINORZ
+CODE_SMELL
+Ysquid:S1165	"%Make this "resourceName" field final.(Ä¶î¿8ô‰¯Ú…-H‰RMINORZ
+CODE_SMELL
+Usquid:S1165
+""Make this "fieldName" field final.(–©ÙK8ô‰¯Ú…-HŠRMINORZ
+CODE_SMELL
+Wsquid:S1165"#Make this "fieldValue" field final.(ä›¨Ã8ô‰¯Ú…-H‹RMINORZ
+CODE_SMELL
+csquid:S1948",Make "fieldValue" transient or serializable.(ä›¨Ã8ô‰¯Ú…-HŒRCRITICALZ
+CODE_SMELL

@@ -1,0 +1,19 @@
+
+{$squid:AssignmentInSubExpressionCheckb".Extract the assignment out of this expression.(×áó8ÙñÚ…-HûRMAJORZ
+CODE_SMELL
+€$squid:AssignmentInSubExpressionCheckP".Extract the assignment out of this expression.(¿¨ô‹ÿÿÿÿÿ8Õì‘Ú…-H€RMAJORZ
+CODE_SMELL
+squid:S4165D"dRemove this useless assignment; "filmId" already holds the assigned value along all execution paths.(×˜ˆÔúÿÿÿÿ8¡ÚˆÜ…-HñRMAJORZ
+CODE_SMELL
+]squid:S1172C")Remove this unused method parameter "id".(ˆÃ»·8Èü…Ú…-HóRMAJORZ
+CODE_SMELL
+€$squid:AssignmentInSubExpressionCheck\".Extract the assignment out of this expression.(íÑãÿÿÿÿÿ8ÙñÚ…-HúRMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ™®ÍHçRMINORZ
+CODE_SMELL
+€$squid:AssignmentInSubExpressionCheckh".Extract the assignment out of this expression.(ç•ÂÊÿÿÿÿÿ8ÙñÚ…-HüRMAJORZ
+CODE_SMELL
+€$squid:AssignmentInSubExpressionCheckV".Extract the assignment out of this expression.(¥İÈúÿÿÿÿ8£ÇäÚ…-H©RMAJORZ
+CODE_SMELL
+{$squid:AssignmentInSubExpressionCheckJ".Extract the assignment out of this expression.(‹Ÿóù8ÙñÚ…-HıRMAJORZ
+CODE_SMELL

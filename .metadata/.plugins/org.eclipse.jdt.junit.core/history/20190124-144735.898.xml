@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="searchResults" tests="12" started="12" failures="0" errors="8" ignored="0">
+  <testsuite name="com.parsons.elliott.searchResults.searchResults.Runner" time="14.765">
+    <testsuite name="Feature: Searching for terms" time="14.765">
+      <testsuite name="Scenario Outline: Search bing for google" time="14.765">
+        <testsuite name="Examples:" time="14.765">
+          <testsuite name="| https://www.bing.com | QAConsulting |" time="0.151" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | QAConsulting |" time="0.14"/>
+            <testcase name="When I search for &quot;QAConsulting&quot;" classname="| https://www.bing.com | QAConsulting |" time="0.008"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | QAConsulting |" time="0.003">
+              <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Guru99 |" time="0.101" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Guru99 |" time="0.089"/>
+            <testcase name="When I search for &quot;Guru99&quot;" classname="| https://www.bing.com | Guru99 |" time="0.012"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Guru99 |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | BlazeDemo |" time="0.103" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | BlazeDemo |" time="0.098"/>
+            <testcase name="When I search for &quot;BlazeDemo&quot;" classname="| https://www.bing.com | BlazeDemo |" time="0.005"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | BlazeDemo |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Automated Testing |" time="0.14" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Automated Testing |" time="0.123"/>
+            <testcase name="When I search for &quot;Automated Testing&quot;" classname="| https://www.bing.com | Automated Testing |" time="0.017"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Automated Testing |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at com.parsons.elliott.searchResults.searchResults.AppTest.i_am_taken_to_a_list_of_data_for_that_search(AppTest.java:57)&#13;
+	at ✽.Then I am taken to a list of data for that search(parameter.feature:9)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

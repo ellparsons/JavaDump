@@ -1,0 +1,17 @@
+
+vsquid:S1192
+"FDefine a constant instead of duplicating this literal "Paper" 7 times.(íØÙºHëRCRITICALZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‰ãôHîRMINORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ù‰ãôHíRCRITICALZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(®½±ÊþÿÿÿÿHìRMAJORZ
+CODE_SMELL
+ysquid:S1192
+"IDefine a constant instead of duplicating this literal "Scissors" 7 times.(íØÙºHêRCRITICALZ
+CODE_SMELL
+esquid:S1197
+"8Move the array designator from the variable to the type.(íØÙºHéRMINORZ
+CODE_SMELL

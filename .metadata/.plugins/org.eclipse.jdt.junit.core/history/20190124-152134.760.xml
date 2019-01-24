@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="searchResults" tests="12" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="com.parsons.elliott.searchResults.searchResults.Runner" incomplete="true">
+    <testsuite name="Feature: Searching for terms" incomplete="true">
+      <testsuite name="Scenario Outline: Search bing for google" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| https://www.bing.com | QAConsulting |" incomplete="true">
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | QAConsulting |" incomplete="true"/>
+            <testcase name="When I search for &quot;QAConsulting&quot;" classname="| https://www.bing.com | QAConsulting |" incomplete="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | QAConsulting |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Guru99 |" incomplete="true">
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Guru99 |" incomplete="true"/>
+            <testcase name="When I search for &quot;Guru99&quot;" classname="| https://www.bing.com | Guru99 |" incomplete="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Guru99 |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | BlazeDemo |" incomplete="true">
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | BlazeDemo |" incomplete="true"/>
+            <testcase name="When I search for &quot;BlazeDemo&quot;" classname="| https://www.bing.com | BlazeDemo |" incomplete="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | BlazeDemo |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| https://www.bing.com | Automated Testing |" incomplete="true">
+            <testcase name="Given I go to &quot;https://www.bing.com&quot; website" classname="| https://www.bing.com | Automated Testing |" incomplete="true"/>
+            <testcase name="When I search for &quot;Automated Testing&quot;" classname="| https://www.bing.com | Automated Testing |" incomplete="true"/>
+            <testcase name="Then I am taken to a list of data for that search" classname="| https://www.bing.com | Automated Testing |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

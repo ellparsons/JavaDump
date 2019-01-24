@@ -1,0 +1,20 @@
+package com.parsons.elliott.searchResults.searchResults;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class BingHomePage 
+{
+	@FindBy(xpath = "//*[@id=\"sb_form_q\"]")
+	WebElement  inputText;
+
+	public void inputText(String text) {
+		inputText.sendKeys(text);
+	}
+	 
+	public void searchText() {
+		inputText.sendKeys(Keys.ENTER);
+	}
+	
+}

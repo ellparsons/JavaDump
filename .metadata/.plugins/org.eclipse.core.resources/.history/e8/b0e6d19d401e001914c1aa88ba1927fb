@@ -1,0 +1,55 @@
+package PHPTravels.PHPTravels;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class PHPTravelsHome {
+	@FindBy(xpath="//*[@id=\"body-section\"]/section/div[2]/div/div/div[2]/ul/li[1]/a")
+	private WebElement searchAnchor;
+	
+	@FindBy(id = "id=select2-drop")
+	private WebElement searchBox;
+	
+	@FindBy(xpath="//*[@id=\"dpd1\"]/div/input")
+	private WebElement checkInDate;
+	
+	@FindBy(xpath="//*[@id=\"dpd2\"]/div/input")
+	private WebElement checkOutDate;
+	
+	@FindBy(xpath="//*[@id=\"travellersInput\"]")
+	private WebElement openAttendees;
+	
+	@FindBy(xpath="//*[@id=\"adultInput\"]")
+	private WebElement increaseAdults;
+	
+	@FindBy(xpath="//*[@id=\"hotels\"]/form/div[5]/button")
+	private WebElement searchForListings;
+	 
+	public void searchFor(String text) throws InterruptedException { 
+		searchAnchor.click();
+		searchAnchor.sendKeys(Keys.TAB);
+		searchAnchor.sendKeys(Keys.TAB);
+		searchAnchor.sendKeys(Keys.TAB);
+		searchAnchor.sendKeys(Keys.TAB);
+		searchAnchor.sendKeys(Keys.TAB);
+		searchAnchor.sendKeys(text);
+		Thread.sleep(2000);
+		searchBox.sendKeys(Keys.ENTER);
+	}  
+	public void checkInDate(String text) { 
+		checkInDate.sendKeys(text);
+	}
+	public void checkOutDate(String text) {
+		checkOutDate.sendKeys(text);
+	}
+	public void openAttendees() {
+		openAttendees.click();
+	}
+	public void increaseAdults(String text) {
+		increaseAdults.sendKeys(Keys.BACK_SPACE);
+		increaseAdults.sendKeys(text);
+	}
+} 
+  
+  
